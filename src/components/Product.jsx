@@ -14,7 +14,7 @@ function Product() {
       backgroundImage: `url(${background})`,
       backgroundRepeat: 'no-repeat',
       backgroundPosition: 'center',
-      height: '100vh',
+      height: '105vh',
       backgroundColor:'#085b2f',
       backgroundSize: 'cover',
       position: 'relative',
