@@ -26,11 +26,13 @@ function Product() {
     justifyContent="center"
     alignItems="flex-start"
     >
-    <Grid size={12} 
+    <Grid size={10} 
     sx={{
       textAlign:'center',
       position: 'absolute',
       top: { xs: '150px', sm: '190px', md: '210px' },
+      color: '#FFFFFF'
+
       
     }} item >
         <Box>
@@ -39,6 +41,7 @@ function Product() {
               sx={{
                 fontFamily: theme.typography.fontFamily.ar,
                 fontSize: { xs: '30px', sm: '36px', md: '50px' }, 
+                fontWeight: 'bold',
               }}
             >
               شوت العافية
@@ -56,7 +59,6 @@ function Product() {
             >
               : المكونات
             </Typography>
-            <br />
             <Typography
               variant="h4"
               sx={{
@@ -73,7 +75,6 @@ function Product() {
         <Box  mt={2} sx={{display:'flex',justifyContent:"center" ,alignItems:"center" }}>
         
           <Avatar sx={{
-            backgroundColor:' #f28320',
             ml:'7px',
             "&:hover":{
               backgroundColor:' black',
@@ -82,10 +83,10 @@ function Product() {
           <InstagramIcon  />
           </Avatar>
             <Avatar sx={{
-            backgroundColor:' #f28320',
             ml:'7px',
             "&:hover":{
               backgroundColor:' black',
+
             }
 
           }}>
