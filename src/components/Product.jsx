@@ -39,7 +39,6 @@ function Product() {
             <Typography
               variant="h1"
               sx={{
-                fontFamily: theme.typography.fontFamily.ar,
                 fontSize: { xs: '30px', sm: '36px', md: '50px' }, 
                 fontWeight: 'bold',
                 marginBottom: '30px',
@@ -53,7 +52,6 @@ function Product() {
             <Typography
               variant="h1"
               sx={{
-                fontFamily: theme.typography.fontFamily.ar,
                 fontSize: { xs: '22px', sm: '22px', md: '30px' }, 
                 textAlign: 'end',
                 margin: '0px 10px',
@@ -64,7 +62,6 @@ function Product() {
             <Typography
               variant="h4"
               sx={{
-                fontFamily: theme.typography.fontFamily.ar,
                 direction: theme.typography.direction.ar,
                 fontSize: { xs: '22px', sm: '22px', md: '20px' }, 
               }}
@@ -78,9 +75,11 @@ function Product() {
         
           <Avatar sx={{
             ml:'7px',
+            backgroundColor:'transparent',
             "&:hover":{
               backgroundColor:' black',
               cursor:'pointer',
+              
 
 
             }
@@ -88,6 +87,8 @@ function Product() {
           <InstagramIcon  />
           </Avatar>
             <Avatar sx={{
+                          backgroundColor:'transparent',
+
                         cursor:'pointer',
 
             ml:'7px',
@@ -103,7 +104,6 @@ function Product() {
             label={
               <Typography
                 sx={{
-                  fontFamily: theme.typography.fontFamily.ar,
                   direction: theme.typography.direction.ar,
                 }}
                 variant="h5"

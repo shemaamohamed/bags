@@ -19,14 +19,9 @@ function App() {
           }
       },
       palette: {
-          primary: {
-              main: '#1976d2',
-          },
-          secondary: {
-              main: '#dc004e',
-          },
+          
           text:{
-            primary: '#d3d9d8',
+            primary: '#FFFFFF',
           },
       },}
   ); 
