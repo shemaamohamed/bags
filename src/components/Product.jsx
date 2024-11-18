@@ -30,7 +30,7 @@ function Product() {
     sx={{
       textAlign:'center',
       position: 'absolute',
-      top: { xs: '150px', sm: '190px', md: '210px' },
+      top: { xs: '150px', sm: '210px', md: '230px' },
       color: '#FFFFFF'
 
       
@@ -42,6 +42,8 @@ function Product() {
                 fontFamily: theme.typography.fontFamily.ar,
                 fontSize: { xs: '30px', sm: '36px', md: '50px' }, 
                 fontWeight: 'bold',
+                marginBottom: '30px',
+
               }}
             >
               شوت العافية
@@ -78,11 +80,16 @@ function Product() {
             ml:'7px',
             "&:hover":{
               backgroundColor:' black',
+              cursor:'pointer',
+
+
             }
           }}>
           <InstagramIcon  />
           </Avatar>
             <Avatar sx={{
+                        cursor:'pointer',
+
             ml:'7px',
             "&:hover":{
               backgroundColor:' black',
