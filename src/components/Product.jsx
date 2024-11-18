@@ -32,7 +32,7 @@ function Product() {
     sx={{
       textAlign:'center',
       position: 'absolute',
-      top: { xs: '150px', sm: '210px', md: '140px' },
+      top: { xs: '17vh', sm: '20vh', md: '25vh' },
       color: '#FFFFFF'
 
       
