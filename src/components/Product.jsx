@@ -5,6 +5,8 @@ import { useTheme } from '@mui/material';
 import background from '../assets/bambofinal.png';
 import LanguageIcon from '@mui/icons-material/Language';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import Link from '@mui/material/Link';
+
 
 function Product() {
   const theme = useTheme();
@@ -30,7 +32,7 @@ function Product() {
     sx={{
       textAlign:'center',
       position: 'absolute',
-      top: { xs: '150px', sm: '210px', md: '230px' },
+      top: { xs: '150px', sm: '210px', md: '140px' },
       color: '#FFFFFF'
 
       
@@ -73,7 +75,9 @@ function Product() {
 
         <Box  mt={2} sx={{display:'flex',justifyContent:"center" ,alignItems:"center" }}>
         
-          <Avatar sx={{
+          <Avatar
+          component={Link} href="https://www.instagram.com/bambookuwait" target="_blank" rel="noopener"
+           sx={{
             ml:'7px',
             backgroundColor:'transparent',
             "&:hover":{
@@ -86,7 +90,9 @@ function Product() {
           }}>
           <InstagramIcon  />
           </Avatar>
-            <Avatar sx={{
+            <Avatar
+             component={Link} href="https://www.bamboo.com.kw" target="_blank" rel="noopener"
+             sx={{
                           backgroundColor:'transparent',
 
                         cursor:'pointer',
